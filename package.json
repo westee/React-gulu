@@ -19,8 +19,10 @@
   "homepage": "https://github.com/westee/React-gulu#readme",
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
+    "html-webpack-plugin": "^3.2.0",
     "typescript": "^3.7.5",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.2"
   }
 }

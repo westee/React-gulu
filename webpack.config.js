@@ -1,4 +1,7 @@
 const path = require('path');
+
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
     mode: 'development',
     entry: {
@@ -43,5 +46,11 @@ module.exports = {
             //     loader: 'text-loader'
             // },
         ]
-    }
-}
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: '大力',
+            template: 'index.html'
+        })
+    ],
+};
