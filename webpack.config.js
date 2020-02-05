@@ -1,9 +1,7 @@
 const path = require('path');
-
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    mode: 'development',
     entry: {
         index: './lib/index.tsx'
     },
@@ -11,6 +9,14 @@ module.exports = {
         path: path.resolve(__dirname, 'dist/lib'),
         library: 'Gulu',
         libraryTarget: 'umd'
+    },
+    resolve: {
+        extensions: ['.ts','.tsx','.js','.jsx'],
+        alias: {
+            stylesheets: path.resolve(__dirname, 'stylesheets'),
+            examples: path.resolve(__dirname, 'examples'),
+            lib: path.resolve(__dirname, 'lib'),
+        }
     },
     module: {
         rules: [
@@ -47,10 +53,4 @@ module.exports = {
             // },
         ]
     },
-    plugins: [
-        new HtmlWebpackPlugin({
-            title: '大力',
-            template: 'index.html'
-        })
-    ],
 };
