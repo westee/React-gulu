@@ -1,5 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Button from './button';
+import  React from 'react';
 
-ReactDOM.render(<Button></Button>, document.getElementById('root'));
+import ReactDOM from 'react-dom';
+import Icon from './icon';
+import wechat from '../icons/wechat.svg';
+
+const root = document.getElementById('root');
+ReactDOM.render(<Icon name="wechat" />, root);

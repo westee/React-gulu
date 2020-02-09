@@ -39,10 +39,10 @@ module.exports = {
             //     enforce: 'pre',
             //     use: [{loader: 'tslint-loader'}]
             // },
-            // {
-            //     test: /icons.+\.svg$/,
-            //     loader: 'svg-sprite-loader'
-            // },
+            {
+                test: /icons.+\.svg$/,
+                loader: 'svg-sprite-loader'
+            },
             // {
             //     test: /guui.+\.svg$/,
             //     loader: 'file-loader'
