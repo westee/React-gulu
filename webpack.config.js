@@ -1,5 +1,4 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -11,7 +10,7 @@ module.exports = {
         libraryTarget: 'umd'
     },
     resolve: {
-        extensions: ['.ts','.tsx','.js','.jsx'],
+        extensions: ['.ts', '.tsx', '.js', '.jsx'],
         alias: {
             stylesheets: path.resolve(__dirname, 'stylesheets'),
             examples: path.resolve(__dirname, 'examples'),
@@ -51,6 +50,14 @@ module.exports = {
             //     test: /\.md$/,
             //     loader: 'text-loader'
             // },
+            {
+                test: /\.s([ac])ss$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'sass-loader',
+                ]
+            }
         ]
     },
 };
