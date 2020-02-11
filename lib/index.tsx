@@ -6,6 +6,6 @@ import Icon from './icon';
 const root = document.getElementById('root');
 ReactDOM.render(
     <div>
-        <Icon name="wechat"/>
+        <Icon name="wechat" onClick={()=>{console.log(1)}} />
     </div>
     , root);
