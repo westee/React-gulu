@@ -1,10 +1,10 @@
 import React from 'react';
 import './importicons';
 import './icon.scss'
+
 interface iconProps {
     name: String;
-    // onClick: React.MouseEventHandler<SVGAElement>
-    onClick: ()=>void
+    onClick: React.MouseEventHandler<SVGElement>
 }
 
 const Icon:React.FunctionComponent<iconProps> = (props)=> {
