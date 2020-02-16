@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="212d9f2b-b2a8-4c3f-8ec4-f60c8c67f281" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list id="4a6a9004-30c2-41ef-a37d-409b7643eb29" name="Revert &quot;添加circleci配置文件&quot;" comment="Revert &quot;添加circleci配置文件&quot;&#10;&#10;This reverts commit cc7b1c99">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-    </list>
+    <list id="4a6a9004-30c2-41ef-a37d-409b7643eb29" name="Revert &quot;添加circleci配置文件&quot;" comment="Revert &quot;添加circleci配置文件&quot;&#10;&#10;This reverts commit cc7b1c99" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +99,7 @@
       <workItem from="1581555730927" duration="8563000" />
       <workItem from="1581581564060" duration="37000" />
       <workItem from="1581656698168" duration="4270000" />
-      <workItem from="1581856860339" duration="528000" />
+      <workItem from="1581856860339" duration="1068000" />
     </task>
     <task id="LOCAL-00001" summary="添加命令，安装了react及相关文件">
       <created>1580903848164</created>
