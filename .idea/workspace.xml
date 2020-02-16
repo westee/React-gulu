@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="212d9f2b-b2a8-4c3f-8ec4-f60c8c67f281" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/button.tsx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/helpers/classes.tsx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/helpers/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/icon/icon.tsx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/icon/importicons.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/icon/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/index.tsx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/types/custom.d.ts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/lib/types/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/junit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\react-gulu\.circleci" />
       <recent name="D:\react-gulu\lib\icon" />
       <recent name="D:\react-gulu\lib" />
     </key>
@@ -119,7 +97,8 @@
       <workItem from="1581393863002" duration="6450000" />
       <workItem from="1581555730927" duration="8563000" />
       <workItem from="1581581564060" duration="37000" />
-      <workItem from="1581656698168" duration="2999000" />
+      <workItem from="1581656698168" duration="4270000" />
+      <workItem from="1581856860339" duration="187000" />
     </task>
     <task id="LOCAL-00001" summary="添加命令，安装了react及相关文件">
       <created>1580903848164</created>
@@ -205,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581563699664</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="更改覆盖率测试">
+      <created>1581732552304</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581732552304</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,17 +211,18 @@
     <MESSAGE value="添加最基础的单元测试" />
     <MESSAGE value="解决组件引入样式文件导致的问题" />
     <MESSAGE value="使用enzyme测试点击事件" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用enzyme测试点击事件" />
+    <MESSAGE value="更改覆盖率测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改覆盖率测试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="498" y="292" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581557851698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="292" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1581557851698" />
-    <state x="668" y="13" key="CommitChangelistDialog2" timestamp="1581563698612">
+    <state x="668" y="13" key="CommitChangelistDialog2" timestamp="1581857088250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="668" y="13" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581563698612" />
+    <state x="668" y="13" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581857088250" />
     <state x="766" y="160" key="FileChooserDialogImpl" timestamp="1581581599110">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -264,10 +251,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="546" y="173" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1581558178780" />
-    <state x="417" y="162" key="Vcs.Push.Dialog.v2" timestamp="1581563701220">
+    <state x="417" y="162" key="Vcs.Push.Dialog.v2" timestamp="1581732554729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="417" y="162" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581563701220" />
+    <state x="417" y="162" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581732554729" />
     <state x="714" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1581417177443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
