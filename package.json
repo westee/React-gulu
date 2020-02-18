@@ -1,6 +1,6 @@
 {
-  "name": "react-gulu123",
-  "version": "1.0.1",
+  "name": "achievement-ui",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index",
