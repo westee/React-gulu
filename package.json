@@ -1,6 +1,6 @@
 {
   "name": "react-gulu123",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index",
@@ -14,7 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/westee/React-gulu.git"
   },
-  "files": ["/dist/**/*"],
+  "files": [
+    "/dist/**/*"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
