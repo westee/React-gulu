@@ -49,9 +49,7 @@ jobs:
     steps:
       - attach_workspace:
           at: .
-      - run:
-          name: Authenticate with registry
-          command: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
+      - run: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
       - run: npm publish
 workflows:
   version: 2
