@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Dialog from "./dialog";
+import Dialog, {alert} from "./dialog";
 
 export default function () {
     const [x, setX] = useState(false);
@@ -30,6 +30,7 @@ export default function () {
                     <strong>nihao</strong>
                 </Dialog>
             </div>
+            <div onClick={()=>alert('1')}>alert</div>
         </div>
 
     )

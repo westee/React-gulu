@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 interface Props {
     visible: boolean;
     children: ReactChild | ReactFragment | ReactPortal;
-    buttons: Array<ReactElement>;
+    buttons?: Array<ReactElement>;
     onClose: React.MouseEventHandler;
     closeOnClickMask?: boolean;
 }
@@ -43,7 +43,7 @@ const Dialog: React.FunctionComponent<Props> = (props) => {
                     <div>{props.children}</div>
                 </main>
                 <footer className={sc('footer')}>
-                    {props.buttons.map((button, index) =>
+                    {props.buttons && props.buttons.map((button, index) =>
                         React.cloneElement(button, {key: index})
                     )}
                 </footer>
@@ -55,7 +55,17 @@ const Dialog: React.FunctionComponent<Props> = (props) => {
     )
 }
 
-Dialog.defaultProps =
-    {closeOnClickMask: false}
+Dialog.defaultProps = {closeOnClickMask: false}
+const alert = (content: string ) =>{
+    const component = <Dialog visible={true} onClose={()=>{
+        ReactDOM.render(React.cloneElement(component, {visible: false}), div);
+        ReactDOM.unmountComponentAtNode(div);
+        div.remove();
+    }}>我是内容</Dialog>;
+    const div = document.createElement('div');
+    document.body.append(div);
+    ReactDOM.render(component, div);
+}
+export {alert};
 
 export default Dialog;
