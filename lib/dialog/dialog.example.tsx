@@ -4,9 +4,12 @@ import Dialog, {alert, confirm, modal} from "./dialog";
 export default function () {
     const [x, setX] = useState(false);
     const [y, setY] = useState(false);
-    const openModal = ()=>{
-        const close = modal((<h1>爱你哟 <button onClick={()=>close()}>close</button></h1>))
-    }
+    const openModal = () => {
+        const close = modal(<h1>
+            爱你哟
+            <button onClick={() => close&&close()}>close</button>
+        </h1>);
+    };
 
     return (
         <div>
@@ -63,3 +66,4 @@ export default function () {
 
     )
 }
+
