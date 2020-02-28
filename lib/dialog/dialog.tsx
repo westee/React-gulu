@@ -2,6 +2,7 @@ import React, {Fragment, ReactChild, ReactElement, ReactFragment, ReactNode, Rea
 import './dialog.scss'
 import Icon from 'lib/icon/icon';
 import ReactDOM from 'react-dom';
+import scopedClassName from "../classes";
 
 interface Props {
     visible: boolean;
@@ -9,12 +10,6 @@ interface Props {
     buttons?: Array<ReactElement>;
     onClose: React.MouseEventHandler;
     closeOnClickMask?: boolean;
-}
-
-function scopedClassName(preName: string) {
-    return function f1(name?: string) {
-        return [preName, name].filter(Boolean).join('-');
-    }
 }
 
 const scopedClass = scopedClassName('chg-dialog');
